@@ -22,6 +22,7 @@ function numbers() {
             NumCinY=NumCinY+125;
             if (NumCinY > 8001) {
                 clearInterval(intr);
+                document.getElementById("Ny").style.fontWeight="bold";
                 document.getElementById("Ny").classList+=" animate__animated animate__pulse";
                 console.log( document.getElementById("Ny").classList);
               }
@@ -32,6 +33,7 @@ function numbers() {
             NumCinK=NumCinK+10;
             if (NumCinK > 1800) {
               clearInterval(intrK);
+              document.getElementById("Nk").style.fontWeight="bold";
               document.getElementById("Nk").classList+=" animate__animated animate__pulse";
 
             }
@@ -42,6 +44,7 @@ function numbers() {
             NumExist=NumExist+1;
             if (NumExist > 59) {
               clearInterval(intrEX);
+              document.getElementById("Exy").style.fontWeight="bold";
               document.getElementById("Exy").classList+=" animate__animated animate__pulse";
 
             }
