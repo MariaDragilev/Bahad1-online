@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Almoni;
+    src: url("fonts/AAA\ Almoni\ Tzar-regular.otf");
+}
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Almoni;
+    direction: rtl;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.navbar {
+    font-size: 1.2em;
+    width: 100%;
+    height:4em;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    border-bottom: 13px , solid , black;
+    /* background-color: lightgrey; */
+    box-shadow: 0px 0px 1px 2px rgb(0 0 0 / 20%);    
+}
+
+#Humburger {
+    width: 2.5em;
+}
+.icon {
+    width: 8em;
+    margin-right: auto;
+    transition: height, 0.5s;
+}
+
+.icon:hover {
+    width: 9em;
+}
+
+.Head {
+    /* box-shadow: 0px 6px 1px 0px rgb(0 0 0 / 20%); */
+    box-shadow: 0px 4px 1px 0px rgb(0 0 0 / 20%);
+    /* display: none; */
+    /* animation-delay: 2s;
+    animation:slideInDown ; /* referring directly to the animation's @keyframe declaration */
+    /* animation-duration: 2s; don't forget to set a duration! */ 
+    direction: rtl;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    background-image: url("Pictures/Header-background2.png");
+    width: 100%;
+    height: 7em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0.1em;
+    /* background-position: top left; */
+}
+
+#headid {
+    transition: opacity 1s;
+
+}
+
+.head-title {
+    padding-top: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 2.3em;
+    font-weight: bold;
+
+}
+
+.head-title p {
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.head-title img {
+    height: 100%;
+    margin-bottom: .25em;
+}
+
+.head-text {
+    font-weight: bold;
+    margin-top: -0.4em;
+}
+
+#head-explanation{
+    text-align: right;
+    font-size: 0.7em;
+    width: 12em;
+    margin-right: 0.3em;
+    margin-top: 0.5em;
+}
+
+.Numbers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.Numbers div {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#scrolling {
+    background-color: blueviolet;
+    width: 100%;
+    height: 5em;
+    margin-top: 42em;
+}
+
+
