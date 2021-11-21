@@ -115,6 +115,10 @@ body {
     font-size: 1.3em;
 }
 
+.Numbers span {
+    font-weight: bold;
+}
+
 #scrolling {
     background-color: blueviolet;
     width: 100%;
