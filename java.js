@@ -27,7 +27,7 @@ function numbers() {
             document.getElementById("Nk").innerText=String(NumCinK);
             NumCinK=NumCinK+10;
             if (NumCinK > 1800) clearInterval(intrK);
-          }, 30)
+          }, 10)
 
         var intrEX = setInterval(function() {
             document.getElementById("Exy").innerText=String(NumExist);
