@@ -2,7 +2,7 @@ var NumCinK=0, NumCinY=0, NumExist=0;
 
 onLoad();
 function onLoad() {
-    document.getElementById("btn").addEventListener("click",onclickf);
+    // document.getElementById("btn").addEventListener("click",onclickf);
     setTimeout(() => {
         
         numbers();
