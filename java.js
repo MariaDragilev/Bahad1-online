@@ -12,28 +12,36 @@ function onLoad() {
 }
 
 function clickhamb(event) {
-  if(menuOpen == false) {
-    console.log("open hukj");
-    openHamborger();
+  if(menuOpen==false) {
+    document.getElementById("menu").style.opacity="1";
+    menuOpen=true;
+  } else {
+    setTimeout(() => {
+      
+      document.getElementById("menu").style.opacity="0";
+      menuOpen=false;
+    }, 800);
   }
-  else {
-    console.log("else")
-    closeHamburger();
-  }
+  document.getElementById("nahshon").classList.toggle("open");
+  document.getElementById("maoz").classList.toggle("open");
+  document.getElementById("lahav").classList.toggle("open");
+  document.getElementById("gefen").classList.toggle("open");
+  // document.getElementById("menu").classList.toggle("menuOpacity");
 }
 
 function openHamborger(){
   document.getElementById("menu").style.opacity="1";
+  menuOpen=true;
 
   for ( var i = 0; i < document.getElementsByClassName("gdudim").length; i++) {
     document.getElementsByClassName("gdudim")[i].style.height="2em";
     document.getElementsByClassName("gdudim")[i].style.fontSize="1.5em";
 
   }
-  menuOpen=true;
 }
 
 function closeHamburger() {
+  
   for ( var i = 0; i < document.getElementsByClassName("gdudim").length; i++) {
     document.getElementsByClassName("gdudim")[i].style.height="0";
     document.getElementsByClassName("gdudim")[i].style.fontSize="0";
