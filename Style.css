@@ -24,7 +24,7 @@ body {
 .navbar {
     font-size: 1.2em;
     width: 100%;
-    height:4em;
+    height:3.5em;
     display: flex;
     position: fixed;
     top: 0;
@@ -47,6 +47,30 @@ body {
 
 .icon:hover {
     width: 9em;
+}
+
+#menu {
+    opacity: 0;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    right: 0em;
+    top: 4em;
+    height: 0;
+    width: 100%;
+    transition: height 3s;
+}
+
+.gdudim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1d2124e6;
+    height: 0;
+    font-size: 0;
+    border-top: 2px solid white;
+    transition: height 1s;
 }
 
 .Head {
