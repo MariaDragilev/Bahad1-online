@@ -4,6 +4,7 @@ onLoad();
 function onLoad() {
     // document.getElementById("btn").addEventListener("click",onclickf);
     document.getElementById("Humburger").addEventListener("click",clickhamb);
+    document.getElementById("nahshon").addEventListener("click",onClickGdud);
     setTimeout(() => {
         
         numbers();
@@ -12,20 +13,21 @@ function onLoad() {
 }
 
 function clickhamb(event) {
-  if(menuOpen==false) {
-    document.getElementById("menu").style.opacity="1";
-    menuOpen=true;
-  } else {
-    setTimeout(() => {
+  // if(menuOpen==false) {
+  //   document.getElementById("menu").style.opacity="1";
+  //   menuOpen=true;
+  // } else {
+  //   setTimeout(() => {
       
-      document.getElementById("menu").style.opacity="0";
-      menuOpen=false;
-    }, 800);
-  }
+  //     document.getElementById("menu").style.opacity="0";
+  //     menuOpen=false;
+  //   }, 800);
+  // }
   document.getElementById("nahshon").classList.toggle("open");
   document.getElementById("maoz").classList.toggle("open");
   document.getElementById("lahav").classList.toggle("open");
   document.getElementById("gefen").classList.toggle("open");
+
   // document.getElementById("menu").classList.toggle("menuOpacity");
 }
 
@@ -55,9 +57,11 @@ function closeHamburger() {
 
 }
 
-function onclickf(event) {
+function onClickGdud(event) {
     console.log("btn");
-    document.getElementById("btn").scrollIntoView();
+    document.getElementById("nivutim").scrollIntoView();
+    clickhamb();
+
 }
 
 function numbers() {
