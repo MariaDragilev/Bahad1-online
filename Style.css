@@ -26,6 +26,10 @@ body {
     margin: 0;
 }
 
+#dashed-top {
+    margin-top: 0.3em;
+    /* background-color: white !important; */
+}
 .navbar {
     box-sizing: border-box;
     font-size: 1.2em;
@@ -39,10 +43,9 @@ body {
     align-items: center;
     border-bottom: 13px , solid , black;
     /* background-color: white; */
-    background-color: rgba(255,255,255,0.85);
+    background-color: rgba(255,255,255,0.8);
     /* box-shadow: 0px 0px 1px 2px rgb(0 0 0 / 20%);     */
     box-shadow: 0 5px 9px rgb(0 0 0 / 15%);
-    
 }
 
 #Humburger {
@@ -103,7 +106,7 @@ body {
 
 
 #allWeb {
-    padding-top: 4em;
+    padding-top: 4.2em;
 }
 
 .head-wrapper {
