@@ -5,7 +5,7 @@ function onLoad() {
   AOS.init();
     // document.getElementById("btn").addEventListener("click",onclickf);
     document.getElementById("Humburger").addEventListener("click",clickhamb);
-    document.getElementById("nahshon").addEventListener("click",onClickGdud);
+    document.getElementById("klali").addEventListener("click",onClickGdud);
     setTimeout(() => {
         
         numbers();
@@ -35,7 +35,7 @@ function clickhamb(event) {
 }
 
 function openHamborger(){
-  document.getElementById("menu").style.height="8em";
+  document.getElementById("menu").style.height="10em";
   menuOpen=true;
 
   for ( var i = 0; i < document.getElementsByClassName("gdudim").length; i++) {
