@@ -2,6 +2,7 @@ var NumCinK=0, NumCinY=0, NumExist=0, menuOpen=Boolean(false);
 
 onLoad();
 function onLoad() {
+  AOS.init();
     // document.getElementById("btn").addEventListener("click",onclickf);
     document.getElementById("Humburger").addEventListener("click",clickhamb);
     document.getElementById("nahshon").addEventListener("click",onClickGdud);
