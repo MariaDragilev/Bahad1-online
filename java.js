@@ -60,7 +60,9 @@ function closeHamburger() {
 
 function onClickGdud(event) {
     console.log("btn");
-    document.getElementById("nivutim").scrollIntoView();
+    document.getElementById("generic-view").scrollIntoView();
+    // window.scrollTo(0, 50);
+    
     clickhamb();
 
 }
