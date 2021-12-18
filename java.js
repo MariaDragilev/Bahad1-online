@@ -23,21 +23,23 @@ function clickhamb(event) {
   //     menuOpen=false;
   //   }, 800);
   // }
-  document.getElementById("nahshon").classList.toggle("open");
-  document.getElementById("maoz").classList.toggle("open");
-  document.getElementById("lahav").classList.toggle("open");
-  document.getElementById("gefen").classList.toggle("open");
+  // document.getElementById("nahshon").classList.toggle("open");
+  // document.getElementById("maoz").classList.toggle("open");
+  // document.getElementById("lahav").classList.toggle("open");
+  // document.getElementById("gefen").classList.toggle("open");
+
+  document.getElementById("menu").classList.toggle('open')
 
   // document.getElementById("menu").classList.toggle("menuOpacity");
 }
 
 function openHamborger(){
-  document.getElementById("menu").style.opacity="1";
+  document.getElementById("menu").style.height="8em";
   menuOpen=true;
 
   for ( var i = 0; i < document.getElementsByClassName("gdudim").length; i++) {
-    document.getElementsByClassName("gdudim")[i].style.height="2em";
-    document.getElementsByClassName("gdudim")[i].style.fontSize="1.5em";
+    // document.getElementsByClassName("gdudim")[i].style.height="2em";
+    // document.getElementsByClassName("gdudim")[i].style.fontSize="1.5em";
 
   }
 }
@@ -45,14 +47,13 @@ function openHamborger(){
 function closeHamburger() {
   
   for ( var i = 0; i < document.getElementsByClassName("gdudim").length; i++) {
-    document.getElementsByClassName("gdudim")[i].style.height="0";
-    document.getElementsByClassName("gdudim")[i].style.fontSize="0";
+    // document.getElementsByClassName("gdudim")[i].style.height="0";
     
   }
+  document.getElementById("menu").style.height="0";
   menuOpen=false;
   setTimeout(() => {
     
-    document.getElementById("menu").style.opacity="0";
   }, 800);
 
 }
