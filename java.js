@@ -5,7 +5,11 @@ function onLoad() {
   AOS.init();
     // document.getElementById("btn").addEventListener("click",onclickf);
     document.getElementById("Humburger").addEventListener("click",clickhamb);
-    document.getElementById("klali").addEventListener("click",onClickGdud);
+
+    for ( var i = 0; i < document.getElementsByClassName("gdudim").length; i++) {
+      document.getElementsByClassName("gdudim")[i].addEventListener("click",onClickGdud);
+      
+    }
     setTimeout(() => {
         
         numbers();
@@ -61,7 +65,9 @@ function closeHamburger() {
 
 function onClickGdud(event) {
     console.log("btn");
-    document.getElementById("generic-view").scrollIntoView();
+    var gdudName=this.id;
+    console.log(gdudName);
+    document.getElementById(gdudName+"-saction").scrollIntoView();
     // window.scrollTo(0, 50);
     
     clickhamb();
