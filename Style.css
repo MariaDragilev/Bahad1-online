@@ -7,7 +7,7 @@
 
     direction: rtl;
     box-sizing: border-box;
-    scroll-margin: 4.2em;
+    scroll-margin: 4.9em;
 }
 html {
     width: 100%;
@@ -235,12 +235,12 @@ body {
     /* text-shadow: -2px 2px 0px rgb(0 0 0 / 46%); */
     height: 100%;
     background-size: 100% 100%;
-    background-color:rgb(255 220 220);
+    /* background-color:rgb(255 220 220); */
 
 }
 
 #title-nashon {
-    /* background-image: url("Pictures/תמונה1.png"); */
+    background-image: url("Pictures/תמונה1.png");
 }
 
 #title-gefen {
@@ -292,7 +292,7 @@ a:link {
 }
 
 #posh {
-    background-image: url("Pictures/posh.jpeg");
+    background-image: url("Pictures/תמונה4.png");
     background-size: contain;
 }
 
