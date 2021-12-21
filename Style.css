@@ -339,18 +339,18 @@ a:visited {
 
 #youtube-chanel {
     background-image: url("Pictures/coveryout2.jpg");
-    background-size: cover;
+    background-size: 80%;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     /* background-position-x: 0.1em; */
-    background-position-y: -1em;
+    background-position-y:1.5em;
     /* background-color: #ffdcdc; */
 }
 
 #youtube-chanel img {
     display: inline-block;
     width: 34%;
-    margin-right: -1em;
+    /* margin-right: 1em; */
 
 }
 
