@@ -331,40 +331,39 @@ a:visited {
 }
 
 #youtube-chanel {
-    /* background-image: url("Pictures/youtubeIcon.jpg"); */
-    background-size: 36%;
+    background-image: url("Pictures/coveryout2.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    background-position-x: 0.1em;
-    background-position-y: 0.5em;
-    background-color: #ffdcdc;
+    /* background-position-x: 0.1em; */
+    background-position-y: -1em;
+    /* background-color: #ffdcdc; */
 }
 
 #youtube-chanel img {
     display: inline-block;
-    width: 27%;
+    width: 34%;
     /* margin-top: 1em; */
 
 }
 
 #hatkafa {
-    background-image: url("Pictures/hatkafa2.jpg");
-    background-size: 80%;
+    background-image: url("Pictures/hatkafa3.jpg.png");
+    background-size: cover;
+    background-position-x: center;
     background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: 0.1em;
 }
 
 #hagana {
-    background-image: url("Pictures/hagana.png");
+    background-image: url("Pictures/hatkafa2.jpg");
     background-size: 18%;
-    background-position-x: right;
+    background-position-x: left;
     background-repeat: no-repeat;
 }
 
 #war {
     background-image: url("Pictures/war.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 
