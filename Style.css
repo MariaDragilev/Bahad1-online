@@ -259,7 +259,7 @@ body {
 
 .card-div {
     margin: 0.5em;
-    max-width: 90%;
+    max-width: 85%;
     width: 16em;
     font-size: 2.5em;
     color: black;
@@ -307,11 +307,19 @@ a:visited {
 
 #Instagram{
     background-image: url("Pictures/Instagram-new-logo.jpg");
-    background-size: 27%;
-    background-position: top right;
-    background-position-x: 0.5em;
-    background-position-y: 0.4em;
-    background-repeat: no-repeat;}
+    background-size: cover;
+    background-position: center;
+    /* background-position-x: 0.5em; */
+    /* background-position-y: 0.4em; */
+    background-repeat: no-repeat;
+    /* background-color: #ffdcdc; */
+}
+
+#Instagram img {
+    display: inline-block;
+    width: 27%;
+    margin-left: -1em;
+}
 #nivutim {
     background-image: url("Pictures/תמונה2.png");
     background-size: 100% 100%; 
@@ -323,21 +331,40 @@ a:visited {
 }
 
 #youtube-chanel {
-    background-image: url("Pictures/youtubeIcon.jpg");
+    /* background-image: url("Pictures/youtubeIcon.jpg"); */
     background-size: 36%;
     background-repeat: no-repeat;
     background-position: top;
     background-position-x: 0.1em;
     background-position-y: 0.5em;
+    background-color: #ffdcdc;
+}
+
+#youtube-chanel img {
+    display: inline-block;
+    width: 27%;
+    /* margin-top: 1em; */
+
 }
 
 #hatkafa {
     background-image: url("Pictures/hatkafa2.jpg");
     background-size: 80%;
-    background-image: 80%;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 0.1em;
+}
+
+#hagana {
+    background-image: url("Pictures/hagana.png");
+    background-size: 18%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+#war {
+    background-image: url("Pictures/war.png");
+    background-size: contain;
 }
 
 
