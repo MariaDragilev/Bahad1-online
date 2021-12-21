@@ -239,6 +239,11 @@ body {
 
 }
 
+#title-lahav{
+    background-image: url("Pictures/dekel.png");
+    background-size: contain;
+}
+
 #title-nashon {
     background-image: url("Pictures/תמונה1.png");
 }
@@ -268,6 +273,7 @@ body {
     height: 6em;
     box-shadow: 3px 8px 8px 3px rgb(0 0 0 / 20%);
     border-radius: 21px;
+    margin-bottom:1em;
 }
 
 .card-a{
