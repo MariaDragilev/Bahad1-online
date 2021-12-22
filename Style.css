@@ -338,24 +338,27 @@ a:visited {
 }
 
 #youtube-chanel {
-    background-image: url("Pictures/coveryout2.jpg");
-    background-size: 80%;
+    /* background-image: url("Pictures/yyy2.png"); */
+    background-image: url("Pictures/Instagram-new-logo.jpg");
+
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     /* background-position-x: 0.1em; */
-    background-position-y:1.5em;
+    /* background-position-y:1.5em; */
     /* background-color: #ffdcdc; */
 }
 
 #youtube-chanel img {
     display: inline-block;
     width: 34%;
+    /* display: none; */
     /* margin-right: 1em; */
 
 }
 
 #hatkafa {
-    background-image: url("Pictures/hatkafa3.jpg.png");
+    background-image: url("Pictures/hatkafa4.jpg.png");
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
