@@ -307,7 +307,7 @@ a:visited {
     font-size: .6em;
     text-shadow: none;
     font-weight: 100;
-    display: flex;
+    /* display: flex; */
     height: 61%;
     align-items: center;
     width: 100%;
@@ -315,7 +315,7 @@ a:visited {
     border-bottom-left-radius: 18px;
     justify-content: center;
     border-bottom-right-radius: 18px;
-    background-color: rgb(72 59 59 / 44%);
+    background-color: rgb(72 59 59 / 53%);
 }
 
 /* cards background */
@@ -382,6 +382,27 @@ a:visited {
 #war {
     background-image: url("Pictures/war.png");
     background-size: cover;
+}
+
+.btn {
+    width: 31%;
+    padding: 0.5em;
+    height: 85%;
+    background-color: #1d2f55;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 5px 9px;    
+}
+
+#btn-war {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
 }
 
 
