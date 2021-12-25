@@ -10,6 +10,7 @@ function onLoad() {
       document.getElementsByClassName("gdudim")[i].addEventListener("click",onClickGdud);
       
     }
+
     setTimeout(() => {
         
         numbers();
@@ -33,10 +34,26 @@ function clickhamb(event) {
   // document.getElementById("lahav").classList.toggle("open");
   // document.getElementById("gefen").classList.toggle("open");
 
-  document.getElementById("menu").classList.toggle('open')
+  document.getElementById("menu").classList.toggle('open');
+  console.log(document.getElementById("menu").classList+"toggle");
+  if(document.getElementById("menu").className=="open"){
+    console.log("opennn");
+        window.addEventListener('mouseup', function(e) {
+          if (e.target != document.getElementById("menu")&& e.target!=document.getElementById("Humburger")) {
+            document.getElementById("menu").classList.remove("open");
+          }
+          this.removeEventListener('mouseup', arguments.callee);
 
+      });
+      
+    }// } else {
+  //   // document.getElementById("menu").classList.toggle('open');
+
+  // }
+    
   // document.getElementById("menu").classList.toggle("menuOpacity");
 }
+
 
 function openHamborger(){
   document.getElementById("menu").style.height="10em";
@@ -64,13 +81,14 @@ function closeHamburger() {
 }
 
 function onClickGdud(event) {
+  document.getElementById("menu").classList.remove('open');
     console.log("btn");
     var gdudName=this.id;
     console.log(gdudName);
     document.getElementById(gdudName+"-saction").scrollIntoView();
     // window.scrollTo(0, 50);
     
-    clickhamb();
+    // clickhamb();
 
 }
 
@@ -83,7 +101,6 @@ function numbers() {
                 clearInterval(intr);
                 document.getElementById("Ny").style.fontWeight="bold";
                 document.getElementById("Ny").classList+=" animate__animated animate__pulse";
-                console.log( document.getElementById("Ny").classList);
               }
           }, 30)
           

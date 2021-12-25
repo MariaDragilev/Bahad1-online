@@ -9,6 +9,7 @@
     box-sizing: border-box;
     scroll-margin: 4.9em;
 }
+
 html {
     width: 100%;
     height: 100%;
@@ -292,7 +293,8 @@ body {
     text-align: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;}
+    background-position: center;
+}
 
 a:link {
     text-decoration:none;
@@ -300,6 +302,10 @@ a:link {
 
 a:visited {
     text-decoration: none;
+}
+
+.card-a :active {
+    color: pink;
 }
 
 .card-text {
@@ -393,7 +399,12 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 2px 5px 9px;    
+    box-shadow: 2px 5px 9px;  
+    text-decoration: none;  
+}
+
+.btn a{
+    color: white;
 }
 
 #btn-war {
