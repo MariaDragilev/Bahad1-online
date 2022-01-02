@@ -397,7 +397,7 @@ a:visited {
 }
 
 #betihoot {
-    background-image: url("Pictures/betihoot.png");
+    /* background-image: url("Pictures/betihoot.png"); */
     background-size: 158%;
     background-repeat: no-repeat;
     background-position: center;
