@@ -381,7 +381,7 @@ a:visited {
 
 #hagana {
     background-image: url("Pictures/hagana1.png");
-    background-size: 18%;
+    background-size: cover;
     background-position-x: left;
     background-repeat: no-repeat;
 }
