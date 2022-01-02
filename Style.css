@@ -342,8 +342,9 @@ a:visited {
     margin-left: -1em;
 }
 #nivutim {
-    background-image: url("Pictures/תמונה2.png");
-    background-size: 100% 100%; 
+    background-image: url("Pictures/nivut.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
 
 #posh {
@@ -379,7 +380,7 @@ a:visited {
 }
 
 #hagana {
-    background-image: url("Pictures/hatkafa2.jpg");
+    background-image: url("Pictures/hagana1.png");
     background-size: 18%;
     background-position-x: left;
     background-repeat: no-repeat;
@@ -388,6 +389,18 @@ a:visited {
 #war {
     background-image: url("Pictures/war.png");
     background-size: cover;
+}
+
+#tahkir {
+    background-image: url("Pictures/tahkir.jpg");
+    background-size: cover;
+}
+
+#betihoot {
+    background-image: url("Pictures/betihoot.png");
+    background-size: 158%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .btn {
