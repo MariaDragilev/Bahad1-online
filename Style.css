@@ -249,8 +249,13 @@ body {
     background-image: url("Pictures/תמונה1.png");
 }
 
+#title-maoz {
+    background-image: url("Pictures/maoz-back.png");
+}
+
 #title-gefen {
     background-image: url("Pictures/גפן.png");
+    background-size: cover;
 
 }
 
@@ -291,7 +296,7 @@ body {
     text-shadow: 2px 1px 1px #a3a3a3;
     /* text-decoration: none; */
     text-align: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -397,10 +402,16 @@ a:visited {
 }
 
 #betihoot {
-    /* background-image: url("Pictures/betihoot.png"); */
-    background-size: 158%;
+    background-image: url("Pictures/betihoot.png");
+    background-size: 73%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
+}
+
+#mishpat {
+    background-image: url("Pictures/mishpat.jpg");
+    background-size: cover;
+
 }
 
 .btn {
