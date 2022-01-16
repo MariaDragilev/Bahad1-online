@@ -181,6 +181,7 @@ body {
     font-size: 0.85em;
     margin: 0;
     margin-top: 0.2em;
+    text-shadow: 1px 1px 1px #ad9999;
 }
 
 .Numbers {
@@ -190,6 +191,11 @@ body {
     padding-top: 1em;
     /* background-color: rgb(255 240 240); */
     background-color:rgb(255 220 220);
+
+    background-image: url("Pictures/back-red.jpg");
+    /* background-size: contain; */
+    align-content: space-around;
+    justify-content: space-around;
 }
 
 .Numbers > div {
@@ -197,12 +203,27 @@ body {
     width: 50%;
     text-align: center;
     font-size: 1.3em;
+
+    /* background-color: white; */
+    color: white;
+    width: 46%;
+    border-radius: 15px;
+    margin-bottom: 1em;
+    padding: .5em .1em;
+    text-shadow: 2px 3px 1px black;
+}
+
+.Numbers > div> p {
+    margin: 0;
 }
 
 .number {
     display: inline-block;
     width: fit-content;
     border-bottom:2px solid #763a3f;
+    border-bottom:2px solid white;
+
+    margin: 0;
 }
 
 #scrolling {
