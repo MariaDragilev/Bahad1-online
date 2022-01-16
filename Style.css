@@ -412,7 +412,7 @@ a:visited {
 
 #mishpat {
     background-image: url("Pictures/mishpat3.png");
-    background-size: 166%;
+    background-size: cover;
     background-position: center;
 
 }
