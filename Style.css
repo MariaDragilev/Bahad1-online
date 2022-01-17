@@ -114,6 +114,8 @@ body {
     background-color: rgb(239, 243, 255);
     /* background-color: rgb(226 226 226); */
     padding: 2em 1em;
+
+    margin-bottom: 0.5em;
 }
 
 .Head {
@@ -127,7 +129,8 @@ body {
     max-width: 100%;
     margin: auto;
     border-radius: .5em;
-    background-image: url("Pictures/Header-background2.png");
+    /* background-image: url("Pictures/Header-background2.png"); */
+    background-image: url("Pictures/background.jpg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,6 +167,7 @@ body {
     align-items: center;
     height: 2.3em;
     font-weight: bold;
+
 }
 
 .head-title p {
@@ -171,10 +175,12 @@ body {
     display: flex;
     padding-top: 0.6em;
     align-items: center;
+    text-shadow: 0px 2px 1px black;
 }
 
 .head-text {
     font-weight: bold;
+    text-shadow: 0px 2px 1px black;
 }
 
 #head-explanation{
@@ -196,6 +202,8 @@ body {
     /* background-size: contain; */
     align-content: space-around;
     justify-content: space-around;
+
+    margin-bottom: 1em;
 }
 
 .Numbers > div {
