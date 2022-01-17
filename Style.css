@@ -155,7 +155,8 @@ body {
     margin: auto;
     height: 75%;
     width: 65%;
-    min-width: 8em;
+    /* min-width: 8em; */
+    min-width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -196,6 +197,7 @@ body {
 
     /* text-shadow: 0px 2px 1px black; */
     text-shadow: 1px 2px 1px black;
+    padding: 0.1em 0.3em;
 }
 
 .Numbers {
